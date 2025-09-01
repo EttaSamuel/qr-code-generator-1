@@ -9,8 +9,9 @@ import fs from 'fs';
 
 inquirer 
 .prompt([
-    {"message": "Type in your URL:",
-     "name": "URL"}
+    {
+        message: "Type in your URL:",
+        name: "URL"}
   ])
   .then((answers) => {
     console.log(answers);
